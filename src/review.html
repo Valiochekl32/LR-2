@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>Sign in</title>
+</head>
+<body>
+    <section class="signIn">
+        <div class="container">
+            <div class="feedback">
+                <nav>
+                    <a href="index.html" class="mainPage">to Main</a>
+                    <div class="logo">
+                        <i class="fa-brands fa-free-code-camp"></i>
+                        <div class="logo__text">nameless</div>
+                    </div>
+                </nav>
+                <div class="comment">
+                    <h1 class="comment__title">Feedback</h1>
+                    <div class="comment__descr">Live your message in the field below</div>
+                    <form action="#">
+                        <div class="comment__wrapper">
+                            <div class="comment__wrapper__text">Username</div>
+                            <input class="comment__wrapper__text__area" type='text' name='nickname' placeholder='Nickname'><br>
+                            <div class="comment__wrapper__text">Email address</div>
+                            <input class="comment__wrapper__text__area" type='email' name='mail' placeholder='name@compagny.com'><br>
+                            <div class="comment__wrapper__dropdown">
+                                <label for="subject" class="subject_label">Message subject:</label>
+                                <select name="subject" class="comment__wrapper__dropdown__item">
+                                    <option>Report bugs</option>
+                                    <option>User experience</option>
+                                    <option>Account restore</option>
+                                </select>
+                            </div>
+                            <input type='submit' name="submit" value="Submit">
+                        </div>
+                        <textarea name="comment" id="a1" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/f40fd5b04a.js" crossorigin="anonymous"></script>
+</body>
+</html>
